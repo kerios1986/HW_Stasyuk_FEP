@@ -1,6 +1,9 @@
 a = prompt('Введите значение');
 
-if (a == +a ) {
+if (a == '') {
+    document.write('Вы ничего не ввели');
+
+} else if (a == +a ) {
     document.write('Данное значение число');
 
 } else {
