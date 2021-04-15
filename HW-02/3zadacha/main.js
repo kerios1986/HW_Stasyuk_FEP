@@ -11,7 +11,7 @@ if (a > b && a > c) {
     document.write('Число b = ', b, ' максимальное');
 
 } else if (c > b && c > a) {
-    document.write('Число b = ', c, ' максимальное');
+    document.write('Число c = ', c, ' максимальное');
 
 } else {
     document.write('Все числа равны друг другу и одинаковые');
