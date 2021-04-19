@@ -1,20 +1,20 @@
 who = prompt('Кто пришел?');
 
-if (who == 'Админ') {
+if (who === 'Админ') {
 
     who = prompt('Пароль?');
      
-    if (who == 'Черный Властелин') {
+    if (who === 'Черный Властелин') {
         alert('Добро пожаловать!');
 
-    } else if (who == 'Отмена'){
+    } else if (who === null){
         alert('Вход отменен');
 
     } else {
         alert('Пароль неверен');
     }
 
-} else if (who == 'Отмена') {
+} else if (who === null) {
     alert('Вход отменен');
     
 } else {
