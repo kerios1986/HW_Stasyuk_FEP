@@ -5,7 +5,7 @@ n = +prompt('Введите размер массива');
 
 for (var i = 0, size = n; i < size; i++) {
     arrA[i] = Math.round(Math.random() * 99);
-    var item = arrA[i];    
+     
 }
 
 console.log(arrA, 'Рандомный массив');
