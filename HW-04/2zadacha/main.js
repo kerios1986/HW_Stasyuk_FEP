@@ -8,7 +8,6 @@ for (var j = 0, size = oneMass.length, n = 0; j < size; j++) {
     } else {
         oneMass[j - 1] = oneMass[j];
         oneMass[j] = n;
-        n = 0;
     }    
 }
    
